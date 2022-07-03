@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
