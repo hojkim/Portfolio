@@ -18,17 +18,19 @@ const Aboutme = () => {
          <div className="a-right">
             <h1 className="a-title">About Me</h1>
             <p className="a-sub">
-               I'm a 2022 graduate at the University of Washington's Informatics
+               I'm a 2021 graduate at the University of Washington's Informatics
                program. Sko Dawgs!
             </p>
-            <p className="a-desc">
-               My passion for Web Development and UX/UI Design derives from the
-               handful of projects I have worked on throughout my time in
-               university.
+            <p className="a-desc-intro">
+               My goal is to be simple and efficient!
             </p>
             <p className="a-desc">
-               I'm driven to work with others to deploy interactable
-               applications with simple and intuitive designs.
+               I am passionate about designing and developing web applications
+               for all types of users.
+            </p>
+            <p className="a-desc">
+               I have the drive to work with others to deploy highly
+               interactable applications with intuitive designs.
             </p>
             <div className="a-skills">
                <p className="a-skills-desc">

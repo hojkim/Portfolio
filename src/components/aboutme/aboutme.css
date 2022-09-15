@@ -51,6 +51,11 @@
    font-weight: 500;
 }
 
+.a-desc-intro {
+   margin-top: 1vh;
+   font-weight: 400;
+}
+
 .a-desc {
    font-weight: 300;
 }
