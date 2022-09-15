@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.19558d8b.css",
-    "main.js": "/Portfolio/static/js/main.e9e51f74.js",
+    "main.css": "/Portfolio/static/css/main.1094a715.css",
+    "main.js": "/Portfolio/static/js/main.779a0930.js",
     "static/media/uwgrad.jpg": "/Portfolio/static/media/uwgrad.b9e9c6940566f5d810a3.jpg",
     "static/media/portrait.png": "/Portfolio/static/media/portrait.402b7ed2aefcf70ec472.png",
     "static/media/react.png": "/Portfolio/static/media/react.86c8d9eba03e29814d2a.png",
@@ -9,11 +9,11 @@
     "static/media/css.png": "/Portfolio/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/Portfolio/index.html",
-    "main.19558d8b.css.map": "/Portfolio/static/css/main.19558d8b.css.map",
-    "main.e9e51f74.js.map": "/Portfolio/static/js/main.e9e51f74.js.map"
+    "main.1094a715.css.map": "/Portfolio/static/css/main.1094a715.css.map",
+    "main.779a0930.js.map": "/Portfolio/static/js/main.779a0930.js.map"
   },
   "entrypoints": [
-    "static/css/main.19558d8b.css",
-    "static/js/main.e9e51f74.js"
+    "static/css/main.1094a715.css",
+    "static/js/main.779a0930.js"
   ]
 }
