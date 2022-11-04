@@ -1,42 +1,63 @@
 .p {
-    width: 30%;
-    height: 29%;
-    margin: 20px 10px;
-    border: 2px solid lightgray;
-    border-radius: 10px 10px 0px 0px;
-    overflow: hidden;
+   width: 30rem;
+   height: 21rem;
+   margin: 20px 10px;
+   border: 2px solid lightgray;
+   border-radius: 10px 10px 0px 0px;
+   overflow: hidden;
 }
 
 .p-browser {
-    height: 20px;
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    z-index: 2;
+   height: 1.2rem;
+   background-color: lightgray;
+   display: flex;
+   align-items: center;
+   position: sticky;
+   z-index: 2;
 }
 
 .p-circle {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin: 4px;
-    background-color: white;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   margin: 4px;
+   background-color: white;
 }
 
 .p-img {
-    width: 100%;
-    transition: all 5s ease;
+   width: 100%;
+   transition: all 5s ease;
 }
 
 .p:hover .p-img {
-    transform: translateY(-70%);
-    border-radius: 10px 10px 0px 0px;
+   transform: translateY(-56%);
+   border-radius: 10px 10px 0px 0px;
 }
 
-
 @media screen and (max-width: 480px) {
-    .p {
-        width: 70%;
-    }
+   .p {
+      width: 10rem;
+      height: 7.8rem;
+   }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+   .p {
+      width: 7.5rem;
+      height: 6rem;
+   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+   .p {
+      width: 17rem;
+      height: 12.5rem;
+   }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+   .p {
+      width: 20rem;
+      height: 14.5rem;
+   }
 }
