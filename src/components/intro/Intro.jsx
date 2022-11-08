@@ -14,9 +14,24 @@ const Intro = () => {
                <h1 className="i-name">Hojun Kim</h1>
                <div className="i-title">
                   <div className="i-title-wrapper">
-                     <div className="i-title-item">UX/UI Designer</div>
-                     <div className="i-title-item">Web Developer</div>
-                     <div className="i-title-item">Data Analyst</div>
+                     <div
+                        className="i-title-item"
+                        style={{ color: darkMode && "#caf0f8" }}
+                     >
+                        UX/UI Designer
+                     </div>
+                     <div
+                        className="i-title-item"
+                        style={{ color: darkMode && "#caf0f8" }}
+                     >
+                        Web Developer
+                     </div>
+                     <div
+                        className="i-title-item"
+                        style={{ color: darkMode && "#caf0f8" }}
+                     >
+                        Data Analyst
+                     </div>
                   </div>
                </div>
                <p className="i-desc">
@@ -39,7 +54,10 @@ const Intro = () => {
             </svg>
          </div>
          <div className="i-right">
-            <div className="i-bg"></div>
+            <div
+               className="i-bg"
+               style={{ background: darkMode && "#caf0f8" }}
+            ></div>
             <img src={Profile} alt="" className="i-img" />
          </div>
       </div>

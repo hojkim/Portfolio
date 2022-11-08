@@ -5,12 +5,20 @@ import htmlIcon from "../../img/html.png";
 import jsIcon from "../../img/js.png";
 import reactIcon from "../../img/react.png";
 import figmaIcon from "../../img/figma.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
 const Aboutme = () => {
+   const theme = useContext(ThemeContext);
+   const darkMode = theme.state.darkMode;
+
    return (
       <div className="a">
          <div className="a-left">
-            <div className="a-card bg"></div>
+            <div
+               className="a-card bg"
+               style={{ background: darkMode && "#caf0f8" }}
+            ></div>
             <div className="a-card">
                <img src={Me} alt="" className="a-img" />
             </div>

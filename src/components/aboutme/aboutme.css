@@ -36,7 +36,7 @@
    width: 60%;
    height: 70vh;
    border-radius: 30px;
-   background-color: #84a4fc;
+   background-color: #fdf0d5;
    position: relative;
    overflow: hidden;
 }
@@ -89,7 +89,6 @@
    .a {
       flex-direction: column;
       text-align: center;
-      margin: 50px 0px;
    }
 
    .a-left {
@@ -98,15 +97,16 @@
    }
 
    .a-title {
+      margin: 0 0 0.5rem 0;
       font-size: 30px;
    }
 
    .a-sub {
-      font-size: 14px;
+      font-size: 12px;
    }
 
    .a-desc {
-      font-size: 14px;
+      font-size: 12px;
       margin: 3% 0;
    }
 
@@ -125,12 +125,16 @@
       justify-content: start;
    }
 
-   .a-title {
-      margin: 15px 0px;
+   .a-desc-intro {
+      display: none;
    }
 
    .a-desc {
       margin: 1vh 0;
+   }
+
+   .a-skills-desc {
+      font-size: 12px;
    }
 
    .a-icons {
@@ -139,6 +143,30 @@
 
    .a-icon {
       margin: 0 2vh;
+   }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+   .a-card {
+      height: 50vh;
+      width: 70%;
+   }
+
+   .a-card.bg {
+      top: 80px;
+      left: 10px;
+   }
+
+   .a-right {
+      height: auto;
+   }
+
+   .a-sub,
+   .a-desc-intro,
+   .a-desc,
+   .a-skills-desc {
+      margin: 0 0 0.5rem 0;
+      font-size: 14px;
    }
 }
 
