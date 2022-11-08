@@ -1,4 +1,4 @@
-# [Hojun's Personal Portfolio](https://hojkim.github.io/Portfolio/)
+# [Hojun's Personal Portfolio](https://external.ink?to=/hojkim.github.io/Portfolio/)
 
 My web portfolio using React.js with **darkmode**🌙 and direct messaging features via e-mail!
 
