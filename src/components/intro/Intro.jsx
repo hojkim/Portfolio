@@ -18,13 +18,13 @@ const Intro = () => {
                         className="i-title-item"
                         style={{ color: darkMode && "#caf0f8" }}
                      >
-                        UX/UI Designer
+                        Software Developer
                      </div>
                      <div
                         className="i-title-item"
                         style={{ color: darkMode && "#caf0f8" }}
                      >
-                        Web Developer
+                        Frontend Developer
                      </div>
                      <div
                         className="i-title-item"
@@ -35,7 +35,7 @@ const Intro = () => {
                   </div>
                </div>
                <p className="i-desc">
-                  I am a UX/UI Designer and Frontend Developer in Seattle, WA.
+                  I am a Frontend Web and Software Developer in Seattle, WA.
                </p>
             </div>
             <svg
