@@ -38,7 +38,7 @@ const Contact = () => {
          ></div>
          <div className="c-wrapper">
             <div className="c-left">
-               <h1 className="c-title">My Contact Information</h1>
+               <h1 className="c-title">Contact Information</h1>
                <div className="c-info">
                   <div className="c-info-item">
                      <svg
@@ -115,8 +115,8 @@ const Contact = () => {
             </div>
             <div className="c-right">
                <p className="c-desc">
-                  <strong>Keep in touch!</strong> Let me know if there's a
-                  project we can work together on.
+                  <strong>Stay in touch!</strong> Shoot me an email about
+                  anything and I will try to get back within one business week!
                </p>
                <form ref={formRef} onSubmit={sendEmail}>
                   <input
