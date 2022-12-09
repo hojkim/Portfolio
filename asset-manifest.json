@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.51c18b56.css",
-    "main.js": "/Portfolio/static/js/main.45bee8d7.js",
+    "main.js": "/Portfolio/static/js/main.c54a272c.js",
     "static/media/uwgrad.jpg": "/Portfolio/static/media/uwgrad.b9e9c6940566f5d810a3.jpg",
     "static/media/portrait.png": "/Portfolio/static/media/portrait.402b7ed2aefcf70ec472.png",
     "static/media/react.png": "/Portfolio/static/media/react.86c8d9eba03e29814d2a.png",
@@ -10,10 +10,10 @@
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/Portfolio/index.html",
     "main.51c18b56.css.map": "/Portfolio/static/css/main.51c18b56.css.map",
-    "main.45bee8d7.js.map": "/Portfolio/static/js/main.45bee8d7.js.map"
+    "main.c54a272c.js.map": "/Portfolio/static/js/main.c54a272c.js.map"
   },
   "entrypoints": [
     "static/css/main.51c18b56.css",
-    "static/js/main.45bee8d7.js"
+    "static/js/main.c54a272c.js"
   ]
 }
