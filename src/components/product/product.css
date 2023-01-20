@@ -25,8 +25,8 @@
 }
 
 .p-img1,
-.p-img3,
-.p-img5 {
+.p-img2,
+.p-img3 {
    width: 100%;
    transition: all 5s ease;
 }
@@ -36,12 +36,12 @@
    border-radius: 10px 10px 0px 0px;
 }
 
-.p:hover .p-img3 {
+.p:hover .p-img2 {
    transform: translateY(-56%);
    border-radius: 10px 10px 0px 0px;
 }
 
-.p:hover .p-img5 {
+.p:hover .p-img3 {
    transform: translateY(-42%);
    border-radius: 10px 10px 0px 0px;
 }

@@ -1,6 +1,6 @@
 import "./product.css";
 
-let num = 0;
+let num = 1;
 const Product = ({ img, link }) => {
    return (
       <div className="p">
