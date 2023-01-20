@@ -9,4 +9,9 @@ export const products = [
       img: "https://i.imgur.com/t4SKjRG.jpg",
       link: "https://hojkim.github.io/weeklyplanner/",
    },
+   {
+      id: 3,
+      img: "https://i.imgur.com/joNMtVJ.png",
+      link: "https://hojkim.github.io/Beatmaker/",
+   },
 ];

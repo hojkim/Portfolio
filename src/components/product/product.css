@@ -24,13 +24,25 @@
    background-color: white;
 }
 
-.p-img {
+.p-img1,
+.p-img3,
+.p-img5 {
    width: 100%;
    transition: all 5s ease;
 }
 
-.p:hover .p-img {
+.p:hover .p-img1 {
+   transform: translateY(-70%);
+   border-radius: 10px 10px 0px 0px;
+}
+
+.p:hover .p-img3 {
    transform: translateY(-56%);
+   border-radius: 10px 10px 0px 0px;
+}
+
+.p:hover .p-img5 {
+   transform: translateY(-42%);
    border-radius: 10px 10px 0px 0px;
 }
 
@@ -59,5 +71,12 @@
    .p {
       width: 20rem;
       height: 14.5rem;
+   }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+   .p {
+      width: 20rem;
+      height: 14.25rem;
    }
 }

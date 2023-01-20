@@ -166,7 +166,7 @@
    .a-desc,
    .a-skills-desc {
       margin: 0 0 0.5rem 0;
-      font-size: 14px;
+      font-size: 12px;
    }
 }
 
@@ -174,5 +174,13 @@
    .a-right {
       height: 50%;
       padding-right: 3%;
+   }
+
+   .a-sub,
+   .a-desc-intro,
+   .a-desc,
+   .a-skills-desc {
+      margin: 0 0 0.5rem 0;
+      font-size: 14px;
    }
 }
